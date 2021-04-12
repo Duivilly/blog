@@ -15,14 +15,13 @@
                 <h2 class="presentation-subtitle text-center">Try something new always <i class="nc-icon nc-planet"></i></h2>
             </div>
         </div>
-        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
-        <h6 class=" category-absolute ml-auto mr-auto">
+        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png');"></div>
+        <h6 class="category-absolute ml-auto mr-auto">
             You cannot create something out of nothing, and everything received must be exchanged for something of equal value. <i class="nc-icon nc-user-run"></i>
         </h6>
     </div>
 
-    <div class="main">      
-    
+    <div class="main">
         <div class="section javascript-components">
             <div class="container">
                 <div class="tim-title">
@@ -33,70 +32,71 @@
                         <div class="tim-title">
                             <h3>About me</h3>
                         </div>
-                        <app-modal-component></app-modal-component>
+                        <app-about></app-about>
                     </div>
                     <div class="col-md-6">
                         <div class="tim-title">
                             <h3>Technologies</h3>
                         </div>
-  
+
                         <button type="button" class="btn btn-outline-danger btn-round" placement="right"
                             ngbPopover="Developing web pages." popoverTitle="About Angular">
                             Angular
                         </button>
-  
+
                         <button type="button" class="btn btn-outline-danger btn-round" placement="top"
                             ngbPopover="Developing native mobile applications." popoverTitle="About Flutter">
                             Flutter
                         </button>
-  
+
                         <button type="button" class="btn btn-outline-danger btn-round" placement="bottom"
                             ngbPopover="Developing services." popoverTitle="About Python">
                             Python
                         </button>
-  
+
                         <button type="button" class="btn btn-outline-danger btn-round" placement="right"
                             ngbPopover="Storage of apps and systems in the cloud." popoverTitle="About Cloud">
                             Cloud
                         </button>
                     </div>
-                    <br/>
                 </div>
             </div>
         </div>
 
+        <app-typography></app-typography>
+
         <div class="section" id="carousel">
-          <div class="container">
-              <div class="tim-title">
-                  <h3>Fotos da galeria</h3>
-              </div>
-              <div class="row">
-                  <div class="col-md-8 mr-auto ml-auto">
-                      <div class="card page-carousel">
-                          <ngb-carousel>
-                              <ng-template ngbSlide>
-                                  <img src="./assets/img/nature/paisagem_a.jpeg" alt="first slide">
-                                  <div class="carousel-caption">
-                                      <p>Old tree</p>
-                                  </div>
-                              </ng-template>
-                              <ng-template ngbSlide>
-                                  <img src="./assets/img/nature/paisagem_b.jpeg" alt="second slide">
-                                  <div class="carousel-caption">
-                                      <p>Old tree</p>
-                                  </div>
-                              </ng-template>
-                              <ng-template ngbSlide>
-                                  <img src="./assets/img/nature/paisagem_c.jpeg" alt="third slide">
-                                  <div class="carousel-caption">
-                                      <p>Manaus</p>
-                                  </div>
-                              </ng-template>
-                          </ngb-carousel>
-                      </div>
-                  </div>
-              </div>
-          </div>
+            <div class="container">
+                <div class="tim-title">
+                    <h2>Photos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mr-auto ml-auto">
+                        <div class="card page-carousel">
+                            <ngb-carousel>
+                                <ng-template ngbSlide>
+                                    <img src="./assets/img/nature/paisagem_a.jpeg" alt="first slide">
+                                    <div class="carousel-caption">
+                                        <p>Old tree</p>
+                                    </div>
+                                </ng-template>
+                                <ng-template ngbSlide>
+                                    <img src="./assets/img/nature/paisagem_b.jpeg" alt="second slide">
+                                    <div class="carousel-caption">
+                                        <p>Old tree</p>
+                                    </div>
+                                </ng-template>
+                                <ng-template ngbSlide>
+                                    <img src="./assets/img/nature/paisagem_c.jpeg" alt="third slide">
+                                    <div class="carousel-caption">
+                                        <p>Manaus</p>
+                                    </div>
+                                </ng-template>
+                            </ngb-carousel>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="section section-dark">
@@ -109,8 +109,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 download-area ml-auto mr-auto">
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.campo_minado" class="btn btn-warning btn-round mt-2">Minefield game</a>
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.caderno" class="btn btn-danger btn-round mt-2">Saving notes</a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.campo_minado"
+                            class="btn btn-warning btn-round mt-2">Minefield game</a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.caderno"
+                            class="btn btn-danger btn-round mt-2">Saving notes</a>
                     </div>
                 </div>
             </div>

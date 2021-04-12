@@ -11,9 +11,9 @@ export class NgbdModalContent {
 }
 
 @Component({
-    selector: 'app-modal-component',
-    templateUrl: './modal.component.html'
+    selector: 'app-about',
+    templateUrl: './about.component.html'
 })
-export class NgbdModalComponent {
+export class AboutComponent {
     constructor(private modalService: NgbModal) {}
 }
