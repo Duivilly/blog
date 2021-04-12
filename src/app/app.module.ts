@@ -10,7 +10,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './action/examples.module';
+import { ActionModule } from './action/action.module';
 
 
 @NgModule({
@@ -25,7 +25,7 @@ import { ExamplesModule } from './action/examples.module';
     FormsModule,
     RouterModule,
     ComponentsModule,
-    ExamplesModule,
+    ActionModule,
     AppRoutingModule,
   ],
   providers: [],
